@@ -17,4 +17,4 @@ jobs:
         run: echo "Token de déploiement = ${{ secrets.DEPLOY_TOKEN }}"
 
       - name: Afficher fin du déploiement
-        run: echo "Déploiement terminé par [Votre Nom]"
+        run: echo "Déploiement terminé par William NOA"
