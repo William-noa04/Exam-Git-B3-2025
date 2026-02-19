@@ -8,13 +8,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Afficher début du déploiement
-        run: echo "Début du déploiement"
+      - name: Debut du deploiement
+        run: echo "Debut du deploiement"
 
-      - name: Récupérer et afficher le secret DEPLOY_TOKEN
-        run: echo "Token de déploiement = ${{ secrets.DEPLOY_TOKEN }}"
+      - name: Afficher le secret
+        run: echo "Token = ${{ secrets.DEPLOY_TOKEN }}"
 
-      - name: Afficher fin du déploiement
-        run: echo "Déploiement terminé par William NOA"
+      - name: Fin du deploiement
+        run: echo "Deploiement termine par NOA Franck"
